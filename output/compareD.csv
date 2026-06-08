@@ -1,0 +1,9 @@
+Structure,Operation,1K,10K,100K,BytesPerElement
+MyArrayList,Write,0.0219,0.0871,1.1704,29.7
+MyArrayList,Read/Search,119.1615,1272.4410,12690.3527,N/A
+ArrayList,Write,0.1802,0.1322,1.2788,29.1
+ArrayList,Read/Search,29.3186,358.2884,2628.2812,N/A
+MyHashMap,Write,0.1326,0.5317,8.4165,114.0
+MyHashMap,Read/Search,2.5010,0.7562,0.7572,N/A
+HashMap,Write,0.1731,0.3304,6.8417,85.6
+HashMap,Read/Search,1.6205,2.9457,2.9394,N/A

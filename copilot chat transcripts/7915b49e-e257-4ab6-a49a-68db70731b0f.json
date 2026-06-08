@@ -1,0 +1,932 @@
+{
+  "version": 3,
+  "requesterUsername": "NathanHayden",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/187418524",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_0e22e411-b424-4f0a-82cd-e666d94d4cd8",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 1055
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 1056
+            },
+            "text": "Write to file called PartD.java that does the following. First, implement a class called MyArrayList inside the file that imitates ArrayList using a plain Object array that doubles in size when full. It should support add(Object), get(int), and contains(Object). Second, implement a class called MyHashMap inside the file that imitates HashMap using an array of linked-list buckets with initial capacity 16 and load factor 0.75, resizing by doubling when needed. It should support put(Object, Object), get(Object), and containsKey(Object). Third, write a main method that benchmarks both classes head-to-head against ArrayList and HashMap for n = 1000, 10000, 100000. Use System.nanoTime() to time 100000 operations each, with a 100000 operation warmup first. Use a long variable called sink to prevent JIT optimization. Also measure bytes per element using Runtime.getRuntime() before and after filling each structure. Print a console table and write results to output/compareD.csv with columns: Structure, Operation, 1K, 10K, 100K, and BytesPerElement.\"",
+            "kind": "text"
+          }
+        ],
+        "text": "Write to file called PartD.java that does the following. First, implement a class called MyArrayList inside the file that imitates ArrayList using a plain Object array that doubles in size when full. It should support add(Object), get(int), and contains(Object). Second, implement a class called MyHashMap inside the file that imitates HashMap using an array of linked-list buckets with initial capacity 16 and load factor 0.75, resizing by doubling when needed. It should support put(Object, Object), get(Object), and containsKey(Object). Third, write a main method that benchmarks both classes head-to-head against ArrayList and HashMap for n = 1000, 10000, 100000. Use System.nanoTime() to time 100000 operations each, with a 100000 operation warmup first. Use a long variable called sink to prevent JIT optimization. Also measure bytes per element using Runtime.getRuntime() before and after filling each structure. Print a console table and write results to output/compareD.csv with columns: Structure, Operation, 1K, 10K, 100K, and BytesPerElement.\""
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.viewport",
+            "name": "file:PartD.java",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+                "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 4,
+                "endColumn": 1
+              }
+            },
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "warning",
+          "content": {
+            "value": "You have exceeded your premium request allowance. We have automatically switched you to GPT-5 mini which is included with your plan. [Enable additional paid premium requests](command:chat.enablePremiumOverages) to continue using premium models.",
+            "isTrusted": {
+              "enabledCommands": [
+                "chat.enablePremiumOverages"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:chat.enablePremiumOverages": {
+                "$mid": 1,
+                "external": "command:chat.enablePremiumOverages",
+                "path": "chat.enablePremiumOverages",
+                "scheme": "command"
+              }
+            }
+          }
+        }
+      ],
+      "responseId": "response_5c158741-fe2b-413c-9cb8-e38d0c78c5d6",
+      "isCanceled": true,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edit files in your workspace in agent mode",
+        "when": "config.chat.agent.enabled && !chatAgentModeDisallowed",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [],
+        "disambiguation": []
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+              "_sep": 1,
+              "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+              "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 4,
+              "endColumn": 1
+            }
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1780927873371
+    },
+    {
+      "requestId": "request_b48ed6b6-c86e-45e6-a76a-22c44e227b72",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 1055
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 1056
+            },
+            "text": "Write to file called PartD.java that does the following. First, implement a class called MyArrayList inside the file that imitates ArrayList using a plain Object array that doubles in size when full. It should support add(Object), get(int), and contains(Object). Second, implement a class called MyHashMap inside the file that imitates HashMap using an array of linked-list buckets with initial capacity 16 and load factor 0.75, resizing by doubling when needed. It should support put(Object, Object), get(Object), and containsKey(Object). Third, write a main method that benchmarks both classes head-to-head against ArrayList and HashMap for n = 1000, 10000, 100000. Use System.nanoTime() to time 100000 operations each, with a 100000 operation warmup first. Use a long variable called sink to prevent JIT optimization. Also measure bytes per element using Runtime.getRuntime() before and after filling each structure. Print a console table and write results to output/compareD.csv with columns: Structure, Operation, 1K, 10K, 100K, and BytesPerElement.\"",
+            "kind": "text"
+          }
+        ],
+        "text": "Write to file called PartD.java that does the following. First, implement a class called MyArrayList inside the file that imitates ArrayList using a plain Object array that doubles in size when full. It should support add(Object), get(int), and contains(Object). Second, implement a class called MyHashMap inside the file that imitates HashMap using an array of linked-list buckets with initial capacity 16 and load factor 0.75, resizing by doubling when needed. It should support put(Object, Object), get(Object), and containsKey(Object). Third, write a main method that benchmarks both classes head-to-head against ArrayList and HashMap for n = 1000, 10000, 100000. Use System.nanoTime() to time 100000 operations each, with a 100000 operation warmup first. Use a long variable called sink to prevent JIT optimization. Also measure bytes per element using Runtime.getRuntime() before and after filling each structure. Print a console table and write results to output/compareD.csv with columns: Structure, Operation, 1K, 10K, 100K, and BytesPerElement.\""
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.viewport",
+            "name": "file:PartD.java",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+                "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 4,
+                "endColumn": 1
+              }
+            },
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Using \"Edit File\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "db42ba3b-6d34-41ae-896c-63df05f2c1de",
+          "toolId": "copilot_insertEdit"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Using \"\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "094d41f3-8881-466f-a5e2-b2a9256a404f",
+          "toolId": "vscode_editFile_internal"
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "scheme": "file"
+          },
+          "edits": [
+            [],
+            []
+          ],
+          "done": true
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Using \"Edit File\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "a1a24e8a-e31b-4fdd-877f-9049c8d4016b",
+          "toolId": "copilot_insertEdit"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Using \"\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "bf721e9d-a0ef-49bb-b87b-f571a6b93e75",
+          "toolId": "vscode_editFile_internal"
+        },
+        {
+          "kind": "undoStop",
+          "id": "bc7adb11-2f92-4143-ad1f-77be89e59f24"
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "scheme": "file"
+          },
+          "edits": [
+            [],
+            []
+          ],
+          "done": true
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Using \"Edit File\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "da3a0d76-cbba-4067-8cae-95544ad4da76",
+          "toolId": "copilot_insertEdit"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Using \"\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "a9705d15-f1e1-428c-b4f3-8d82a2a561b9",
+          "toolId": "vscode_editFile_internal"
+        },
+        {
+          "kind": "undoStop",
+          "id": "d6854482-8a4e-4f59-95c4-ee086c425961"
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "scheme": "file"
+          },
+          "edits": [
+            [],
+            []
+          ],
+          "done": true
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": {
+            "value": "Creating [](file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java)",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java": {
+                "$mid": 1,
+                "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+                "scheme": "file"
+              }
+            }
+          },
+          "pastTenseMessage": {
+            "value": "Created [](file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java)",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java": {
+                "$mid": 1,
+                "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+                "scheme": "file"
+              }
+            }
+          },
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "90b193f8-383d-46ae-ac8d-0db7c607dde0",
+          "toolId": "copilot_createFile"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "invocationMessage": {
+            "value": "Reading [](file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java), lines 1 to 4",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java": {
+                "$mid": 1,
+                "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+                "scheme": "file"
+              }
+            }
+          },
+          "pastTenseMessage": {
+            "value": "Read [](file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java), lines 1 to 4",
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java": {
+                "$mid": 1,
+                "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+                "scheme": "file"
+              }
+            }
+          },
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "2baf06e9-4d8f-428a-bc07-f191e1806c10",
+          "toolId": "copilot_readFile"
+        },
+        {
+          "kind": "confirmation",
+          "title": "Continue to iterate?",
+          "message": "Copilot has been working on this problem for a while. It can continue to iterate, or you can send a new message to refine your prompt.",
+          "data": {
+            "copilotRequestedRoundLimit": 8
+          },
+          "buttons": [
+            "Continue",
+            "Pause"
+          ],
+          "isUsed": true
+        }
+      ],
+      "responseId": "response_19a16bc1-dc3c-4c91-8276-799282874a49",
+      "result": {
+        "timings": {
+          "totalElapsed": 244143
+        },
+        "metadata": {
+          "maxToolCallsExceeded": true,
+          "codeBlocks": [],
+          "renderedUserMessage": [
+            {
+              "type": 1,
+              "text": "<attachments>\n<attachment id=\"file:PartD.java\">\nUser's current visible code:\nExcerpt from PartD.java, lines 1 to 4:\n```java\n// filepath: c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java\npublic class PartD {\r\n    \r\n}\n```\n</attachment>\n\n</attachments>\n<userPrompt>\nWrite to file called PartD.java that does the following. First, implement a class called MyArrayList inside the file that imitates ArrayList using a plain Object array that doubles in size when full. It should support add(Object), get(int), and contains(Object). Second, implement a class called MyHashMap inside the file that imitates HashMap using an array of linked-list buckets with initial capacity 16 and load factor 0.75, resizing by doubling when needed. It should support put(Object, Object), get(Object), and containsKey(Object). Third, write a main method that benchmarks both classes head-to-head against ArrayList and HashMap for n = 1000, 10000, 100000. Use System.nanoTime() to time 100000 operations each, with a 100000 operation warmup first. Use a long variable called sink to prevent JIT optimization. Also measure bytes per element using Runtime.getRuntime() before and after filling each structure. Print a console table and write results to output/compareD.csv with columns: Structure, Operation, 1K, 10K, 100K, and BytesPerElement.\"\n</userPrompt>\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "insert_edit_into_file",
+                  "arguments": "{\"filePath\":\"c:\\\\Users\\\\nathan.hayden\\\\Desktop\\\\cp2561-lab2\\\\src\\\\PartD.java\",\"explanation\":\"Replace file with implementation of MyArrayList and MyHashMap and a main that benchmarks them against java.util.ArrayList and java.util.HashMap for sizes 1K, 10K, 100K. Writes results to console and output/compareD.csv, measures bytes per element, uses sink to prevent JIT optimization.\",\"code\":\"import java.io.BufferedWriter;\\nimport java.io.File;\\nimport java.io.FileWriter;\\nimport java.io.IOException;\\nimport java.util.ArrayList;\\nimport java.util.HashMap;\\nimport java.util.Random;\\n\\npublic class PartD {\\n\\n    // Simple ArrayList-like implementation using Object[] that doubles when full\\n    public static class MyArrayList {\\n        private Object[] data;\\n        private int size;\\n\\n        public MyArrayList() {\\n            this(10);\\n        }\\n\\n        public MyArrayList(int capacity) {\\n            data = new Object[capacity];\\n            size = 0;\\n        }\\n\\n        public void add(Object o) {\\n            if (size == data.length) {\\n                Object[] nd = new Object[data.length * 2];\\n                System.arraycopy(data, 0, nd, 0, data.length);\\n                data = nd;\\n            }\\n            data[size++] = o;\\n        }\\n\\n        public Object get(int index) {\\n            if (index < 0 || index >= size) throw new IndexOutOfBoundsException(\\\"index=\\\" + index);\\n            return data[index];\\n        }\\n\\n        public boolean contains(Object o) {\\n            for (int i = 0; i < size; i++) {\\n                Object v = data[i];\\n                if (v == null) {\\n                    if (o == null) return true;\\n                } else if (v.equals(o)) return true;\\n            }\\n            return false;\\n        }\\n\\n        public int size() {\\n            return size;\\n        }\\n    }\\n\\n    // Simple HashMap-like implementation using separate chaining and resizing\\n    public static class MyHashMap {\\n        static class Node {\\n            final Object key;\\n            Object value;\\n            Node next;\\n\\n            Node(Object key, Object value, Node next) {\\n                this.key = key;\\n                this.value = value;\\n                this.next = next;\\n            }\\n        }\\n\\n        private Node[] table;\\n        private int size;\\n        private int threshold;\\n        private final float loadFactor;\\n\\n        public MyHashMap() {\\n            this(16, 0.75f);\\n        }\\n\\n        public MyHashMap(int capacity, float loadFactor) {\\n            this.table = new Node[capacity];\\n            this.loadFactor = loadFactor;\\n            this.threshold = (int) (capacity * loadFactor);\\n            this.size = 0;\\n        }\\n\\n        private int indexFor(Object key, int length) {\\n            int h = (key == null) ? 0 : key.hashCode();\\n            h ^= (h >>> 16);\\n            return (h & 0x7fffffff) % length;\\n        }\\n\\n        public void put(Object key, Object value) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) {\\n                    e.value = value;\\n                    return;\\n                }\\n            }\\n            Node n = new Node(key, value, table[idx]);\\n            table[idx] = n;\\n            size++;\\n            if (size > threshold) resize(table.length * 2);\\n        }\\n\\n        public Object get(Object key) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) return e.value;\\n            }\\n            return null;\\n        }\\n\\n        public boolean containsKey(Object key) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) return true;\\n            }\\n            return false;\\n        }\\n\\n        private void resize(int newCapacity) {\\n            Node[] newTable = new Node[newCapacity];\\n            for (int i = 0; i < table.length; i++) {\\n                Node e = table[i];\\n                while (e != null) {\\n                    Node next = e.next;\\n                    int idx = indexFor(e.key, newCapacity);\\n                    e.next = newTable[idx];\\n                    newTable[idx] = e;\\n                    e = next;\\n                }\\n            }\\n            table = newTable;\\n            threshold = (int) (newCapacity * loadFactor);\\n        }\\n\\n        public int size() {\\n            return size;\\n        }\\n    }\\n\\n    // Helper to get used memory\\n    private static long usedMemory() {\\n        Runtime rt = Runtime.getRuntime();\\n        return rt.totalMemory() - rt.freeMemory();\\n    }\\n\\n    public static void main(String[] args) throws Exception {\\n        int[] sizes = {1000, 10000, 100000};\\n        String[] structures = {\\\"ArrayList\\\", \\\"MyArrayList\\\", \\\"HashMap\\\", \\\"MyHashMap\\\"};\\n\\n        // We'll collect CSV rows in a StringBuilder\\n        StringBuilder csv = new StringBuilder();\\n        csv.append(\\\"Structure,Operation,1K,10K,100K,BytesPerElement\\\\n\\\");\\n\\n        long sink = 0L; // to prevent JIT optimizing away calls\\n        Random rng = new Random(123456);\\n\\n        for (String struct : structures) {\\n            for (int opType = 0; opType < 3; opType++) {\\n                // opType mapping:\\n                // for lists: 0=add,1=get,2=contains\\n                // for maps: 0=put,1=get,2=containsKey\\n                String operation = \\\"\\\";\\n                if (struct.endsWith(\\\"List\\\")) {\\n                    if (opType == 0) operation = \\\"add\\\";\\n                    else if (opType == 1) operation = \\\"get\\\";\\n                    else operation = \\\"contains\\\";\\n                } else {\\n                    if (opType == 0) operation = \\\"put\\\";\\n                    else if (opType == 1) operation = \\\"get\\\";\\n                    else operation = \\\"containsKey\\\";\\n                }\\n\\n                double[] timesMs = new double[sizes.length];\\n                double[] bytesPerElement = new double[sizes.length];\\n\\n                for (int si = 0; si < sizes.length; si++) {\\n                    int n = sizes[si];\\n\\n                    // Prepare data set: integers [0..n-1]\\n                    Integer[] keys = new Integer[n];\\n                    for (int i = 0; i < n; i++) keys[i] = Integer.valueOf(i);\\n\\n                    // Create the structure and fill to n elements (for memory measurement)\\n                    System.gc(); // hint\\n                    long before = usedMemory();\\n\\n                    Object structure = null;\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = new ArrayList<Object>(n);\\n                        for (int i = 0; i < n; i++) al.add(keys[i]);\\n                        structure = al;\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = new MyArrayList(n);\\n                        for (int i = 0; i < n; i++) mal.add(keys[i]);\\n                        structure = mal;\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object, Object> hm = new HashMap<Object, Object>(n * 2);\\n                        for (int i = 0; i < n; i++) hm.put(keys[i], keys[i]);\\n                        structure = hm;\\n                    } else if (struct.equals(\\\"MyHashMap\\\")) {\\n                        MyHashMap mhm = new MyHashMap(Math.max(16, n), 0.75f);\\n                        for (int i = 0; i < n; i++) mhm.put(keys[i], keys[i]);\\n                        structure = mhm;\\n                    }\\n\\n                    System.gc();\\n                    long after = usedMemory();\\n                    double bytesEach = (after - before) / (double) Math.max(1, n);\\n                    bytesPerElement[si] = bytesEach;\\n\\n                    // Now run warmup and timed operations (100k each)\\n                    final int WARM = 100000;\\n                    final int MEAS = 100000;\\n\\n                    // Warmup\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = (ArrayList<Object>) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < WARM; i++) al.add(Integer.valueOf(1000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int idx = rng.nextInt(n);\\n                                Object v = al.get(idx);\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else { // contains\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = al.contains(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = (MyArrayList) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < WARM; i++) mal.add(Integer.valueOf(1000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int idx = rng.nextInt(n);\\n                                Object v = mal.get(idx);\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = mal.contains(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object, Object> hm = (HashMap<Object, Object>) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < WARM; i++) hm.put(Integer.valueOf(1000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                Object v = hm.get(Integer.valueOf(k));\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = hm.containsKey(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"MyHashMap\\\")) {\\n                        MyHashMap mhm = (MyHashMap) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < WARM; i++) mhm.put(Integer.valueOf(1000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                Object v = mhm.get(Integer.valueOf(k));\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = mhm.containsKey(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    }\\n\\n                    // Measured run\\n                    long t0 = System.nanoTime();\\n\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = (ArrayList<Object>) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < MEAS; i++) al.add(Integer.valueOf(2000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int idx = rng.nextInt(n);\\n                                Object v = al.get(idx);\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else { // contains\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = al.contains(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = (MyArrayList) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < MEAS; i++) mal.add(Integer.valueOf(2000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int idx = rng.nextInt(n);\\n                                Object v = mal.get(idx);\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = mal.contains(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object, Object> hm = (HashMap<Object, Object>) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < MEAS; i++) hm.put(Integer.valueOf(2000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                Object v = hm.get(Integer.valueOf(k));\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = hm.containsKey(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"MyHashMap\\\")) {\\n                        MyHashMap mhm = (MyHashMap) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < MEAS; i++) mhm.put(Integer.valueOf(2000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                Object v = mhm.get(Integer.valueOf(k));\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = mhm.containsKey(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    }\\n\\n                    long t1 = System.nanoTime();\\n                    double ms = (t1 - t0) / 1e6;\\n                    timesMs[si] = ms;\\n                }\\n\\n                // Print one CSV row per structure+operation\\n                csv.append(struct).append(\\\",\\\").append(operation).append(\\\",\\\");\\n                for (int i = 0; i < sizes.length; i++) {\\n                    csv.append(String.format(\\\"%.3f\\\", timesMs[i]));\\n                    csv.append(\\\",\\\");\\n                }\\n                // bytes per element: use bytes after filling for largest size (100K) to report\\n                // The user requested BytesPerElement column; pick value for 100K case\\n                double bpe = 0.0;\\n                // We approximated bytes per element per size earlier; we didn't store them across ops, so recompute for 100K specifically\\n                // To keep things simple, compute bytes per element for 100K using a fresh My structure of same type\\n                int refN = 100000;\\n                System.gc();\\n                long bBefore = usedMemory();\\n                if (struct.equals(\\\"ArrayList\\\")) {\\n                    ArrayList<Object> al = new ArrayList<Object>(refN);\\n                    for (int i = 0; i < refN; i++) al.add(Integer.valueOf(i));\\n                } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                    MyArrayList mal = new MyArrayList(refN);\\n                    for (int i = 0; i < refN; i++) mal.add(Integer.valueOf(i));\\n                } else if (struct.equals(\\\"HashMap\\\")) {\\n                    HashMap<Object, Object> hm = new HashMap<Object, Object>(refN * 2);\\n                    for (int i = 0; i < refN; i++) hm.put(Integer.valueOf(i), Integer.valueOf(i));\\n                } else if (struct.equals(\\\"MyHashMap\\\")) {\\n                    MyHashMap mhm = new MyHashMap(Math.max(16, refN), 0.75f);\\n                    for (int i = 0; i < refN; i++) mhm.put(Integer.valueOf(i), Integer.valueOf(i));\\n                }\\n                System.gc();\\n                long bAfter = usedMemory();\\n                bpe = (bAfter - bBefore) / (double) refN;\\n\\n                csv.append(String.format(\\\"%.2f\\\", bpe)).append('\\\\n');\\n\\n                // Also print a console line for quick feedback\\n                System.out.println(String.format(\\\"%s %s -> 1K: %.3f ms, 10K: %.3f ms, 100K: %.3f ms, BPE: %.2f\\\", struct,\\n                        operation, timesMs[0], timesMs[1], timesMs[2], bpe));\\n            }\\n        }\\n\\n        // Ensure output dir exists and write CSV\\n        File out = new File(\\\"output\\\");\\n        if (!out.exists()) out.mkdirs();\\n        File csvFile = new File(out, \\\"compareD.csv\\\");\\n        try (BufferedWriter bw = new BufferedWriter(new FileWriter(csvFile))) {\\n            bw.write(csv.toString());\\n        } catch (IOException e) {\\n            System.err.println(\\\"Failed to write CSV: \\\" + e.getMessage());\\n        }\\n\\n        // Use sink to avoid it being optimized away\\n        if (sink == 0) System.out.println();\\n    }\\n}\\n\"}",
+                  "id": "call_kjLMKE0OYNu0uapgVIJCCbet__vscode-1780926194621"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "a0fce577-e59b-4899-a876-fbed7baa3460"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "insert_edit_into_file",
+                  "arguments": "{\"filePath\":\"c:\\\\Users\\\\nathan.hayden\\\\Desktop\\\\cp2561-lab2\\\\src\\\\PartD.java\",\"explanation\":\"Replace the existing file with the requested classes MyArrayList and MyHashMap and a main method that benchmarks against ArrayList and HashMap, measuring time and bytes per element and writing CSV to output/compareD.csv.\",\"code\":\"import java.io.BufferedWriter;\\nimport java.io.File;\\nimport java.io.FileWriter;\\nimport java.io.IOException;\\nimport java.util.ArrayList;\\nimport java.util.HashMap;\\nimport java.util.Random;\\n\\npublic class PartD {\\n\\n    // ...existing code...\\n\\n    // Simple ArrayList-like implementation using Object[] that doubles when full\\n    public static class MyArrayList {\\n        private Object[] data;\\n        private int size;\\n\\n        public MyArrayList() {\\n            this(10);\\n        }\\n\\n        public MyArrayList(int capacity) {\\n            data = new Object[capacity];\\n            size = 0;\\n        }\\n\\n        public void add(Object o) {\\n            if (size == data.length) {\\n                int newCap = data.length == 0 ? 1 : data.length * 2;\\n                Object[] nd = new Object[newCap];\\n                System.arraycopy(data, 0, nd, 0, data.length);\\n                data = nd;\\n            }\\n            data[size++] = o;\\n        }\\n\\n        public Object get(int index) {\\n            if (index < 0 || index >= size) throw new IndexOutOfBoundsException(\\\"index=\\\" + index);\\n            return data[index];\\n        }\\n\\n        public boolean contains(Object o) {\\n            for (int i = 0; i < size; i++) {\\n                Object v = data[i];\\n                if (v == null) {\\n                    if (o == null) return true;\\n                } else if (v.equals(o)) return true;\\n            }\\n            return false;\\n        }\\n\\n        public int size() {\\n            return size;\\n        }\\n    }\\n\\n    // ...existing code...\\n\\n    // Simple HashMap-like implementation using separate chaining and resizing\\n    public static class MyHashMap {\\n        static class Node {\\n            final Object key;\\n            Object value;\\n            Node next;\\n\\n            Node(Object key, Object value, Node next) {\\n                this.key = key;\\n                this.value = value;\\n                this.next = next;\\n            }\\n        }\\n\\n        private Node[] table;\\n        private int size;\\n        private int threshold;\\n        private final float loadFactor;\\n\\n        public MyHashMap() {\\n            this(16, 0.75f);\\n        }\\n\\n        public MyHashMap(int capacity, float loadFactor) {\\n            this.table = new Node[capacity];\\n            this.loadFactor = loadFactor;\\n            this.threshold = (int) (capacity * loadFactor);\\n            this.size = 0;\\n        }\\n\\n        private int indexFor(Object key, int length) {\\n            int h = (key == null) ? 0 : key.hashCode();\\n            h ^= (h >>> 16);\\n            return (h & 0x7fffffff) % length;\\n        }\\n\\n        public void put(Object key, Object value) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) {\\n                    e.value = value;\\n                    return;\\n                }\\n            }\\n            Node n = new Node(key, value, table[idx]);\\n            table[idx] = n;\\n            size++;\\n            if (size > threshold) resize(table.length * 2);\\n        }\\n\\n        public Object get(Object key) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) return e.value;\\n            }\\n            return null;\\n        }\\n\\n        public boolean containsKey(Object key) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) return true;\\n            }\\n            return false;\\n        }\\n\\n        private void resize(int newCapacity) {\\n            Node[] newTable = new Node[newCapacity];\\n            for (int i = 0; i < table.length; i++) {\\n                Node e = table[i];\\n                while (e != null) {\\n                    Node next = e.next;\\n                    int idx = indexFor(e.key, newCapacity);\\n                    e.next = newTable[idx];\\n                    newTable[idx] = e;\\n                    e = next;\\n                }\\n            }\\n            table = newTable;\\n            threshold = (int) (newCapacity * loadFactor);\\n        }\\n\\n        public int size() {\\n            return size;\\n        }\\n    }\\n\\n    // Helper to get used memory\\n    private static long usedMemory() {\\n        Runtime rt = Runtime.getRuntime();\\n        return rt.totalMemory() - rt.freeMemory();\\n    }\\n\\n    public static void main(String[] args) throws Exception {\\n        int[] sizes = {1000, 10000, 100000};\\n        String[] structures = {\\\"ArrayList\\\", \\\"MyArrayList\\\", \\\"HashMap\\\", \\\"MyHashMap\\\"};\\n\\n        // We'll collect CSV rows in a StringBuilder\\n        StringBuilder csv = new StringBuilder();\\n        csv.append(\\\"Structure,Operation,1K,10K,100K,BytesPerElement\\\\n\\\");\\n\\n        long sink = 0L; // to prevent JIT optimizing away calls\\n        Random rng = new Random(123456);\\n\\n        for (String struct : structures) {\\n            for (int opType = 0; opType < 3; opType++) {\\n                // opType mapping:\\n                // for lists: 0=add,1=get,2=contains\\n                // for maps: 0=put,1=get,2=containsKey\\n                String operation = \\\"\\\";\\n                if (struct.endsWith(\\\"List\\\")) {\\n                    if (opType == 0) operation = \\\"add\\\";\\n                    else if (opType == 1) operation = \\\"get\\\";\\n                    else operation = \\\"contains\\\";\\n                } else {\\n                    if (opType == 0) operation = \\\"put\\\";\\n                    else if (opType == 1) operation = \\\"get\\\";\\n                    else operation = \\\"containsKey\\\";\\n                }\\n\\n                double[] timesMs = new double[sizes.length];\\n\\n                for (int si = 0; si < sizes.length; si++) {\\n                    int n = sizes[si];\\n\\n                    // Prepare data set: integers [0..n-1]\\n                    Integer[] keys = new Integer[n];\\n                    for (int i = 0; i < n; i++) keys[i] = Integer.valueOf(i);\\n\\n                    // Create the structure and fill to n elements (for memory measurement)\\n                    System.gc(); // hint\\n                    long before = usedMemory();\\n\\n                    Object structure = null;\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = new ArrayList<Object>(n);\\n                        for (int i = 0; i < n; i++) al.add(keys[i]);\\n                        structure = al;\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = new MyArrayList(n);\\n                        for (int i = 0; i < n; i++) mal.add(keys[i]);\\n                        structure = mal;\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object, Object> hm = new HashMap<Object, Object>(n * 2);\\n                        for (int i = 0; i < n; i++) hm.put(keys[i], keys[i]);\\n                        structure = hm;\\n                    } else if (struct.equals(\\\"MyHashMap\\\")) {\\n                        MyHashMap mhm = new MyHashMap(Math.max(16, n), 0.75f);\\n                        for (int i = 0; i < n; i++) mhm.put(keys[i], keys[i]);\\n                        structure = mhm;\\n                    }\\n\\n                    System.gc();\\n                    long after = usedMemory();\\n                    double bytesEach = (after - before) / (double) Math.max(1, n);\\n\\n                    // Now run warmup and timed operations (100k each)\\n                    final int WARM = 100000;\\n                    final int MEAS = 100000;\\n\\n                    // Warmup\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = (ArrayList<Object>) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < WARM; i++) al.add(Integer.valueOf(1000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int idx = rng.nextInt(n);\\n                                Object v = al.get(idx);\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else { // contains\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = al.contains(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = (MyArrayList) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < WARM; i++) mal.add(Integer.valueOf(1000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int idx = rng.nextInt(n);\\n                                Object v = mal.get(idx);\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = mal.contains(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object, Object> hm = (HashMap<Object, Object>) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < WARM; i++) hm.put(Integer.valueOf(1000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                Object v = hm.get(Integer.valueOf(k));\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = hm.containsKey(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"MyHashMap\\\")) {\\n                        MyHashMap mhm = (MyHashMap) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < WARM; i++) mhm.put(Integer.valueOf(1000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                Object v = mhm.get(Integer.valueOf(k));\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = mhm.containsKey(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    }\\n\\n                    // Measured run\\n                    long t0 = System.nanoTime();\\n\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = (ArrayList<Object>) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < MEAS; i++) al.add(Integer.valueOf(2000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int idx = rng.nextInt(n);\\n                                Object v = al.get(idx);\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else { // contains\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = al.contains(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = (MyArrayList) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < MEAS; i++) mal.add(Integer.valueOf(2000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int idx = rng.nextInt(n);\\n                                Object v = mal.get(idx);\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = mal.contains(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object, Object> hm = (HashMap<Object, Object>) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < MEAS; i++) hm.put(Integer.valueOf(2000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                Object v = hm.get(Integer.valueOf(k));\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = hm.containsKey(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    } else if (struct.equals(\\\"MyHashMap\\\")) {\\n                        MyHashMap mhm = (MyHashMap) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < MEAS; i++) mhm.put(Integer.valueOf(2000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                Object v = mhm.get(Integer.valueOf(k));\\n                                sink += (v == null ? 0 : v.hashCode());\\n                            }\\n                        } else {\\n                            for (int i = 0; i < MEAS; i++) {\\n                                int k = rng.nextInt(n);\\n                                boolean b = mhm.containsKey(Integer.valueOf(k));\\n                                sink += b ? 1 : 0;\\n                            }\\n                        }\\n                    }\\n\\n                    long t1 = System.nanoTime();\\n                    double ms = (t1 - t0) / 1e6;\\n                    timesMs[si] = ms;\\n                }\\n\\n                // Print one CSV row per structure+operation\\n                csv.append(struct).append(\\\",\\\").append(operation).append(\\\",\\\");\\n                for (int i = 0; i < sizes.length; i++) {\\n                    csv.append(String.format(\\\"%.3f\\\", timesMs[i]));\\n                    csv.append(\\\",\\\");\\n                }\\n                // bytes per element: compute for 100K\\n                int refN = 100000;\\n                System.gc();\\n                long bBefore = usedMemory();\\n                if (struct.equals(\\\"ArrayList\\\")) {\\n                    ArrayList<Object> al = new ArrayList<Object>(refN);\\n                    for (int i = 0; i < refN; i++) al.add(Integer.valueOf(i));\\n                } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                    MyArrayList mal = new MyArrayList(refN);\\n                    for (int i = 0; i < refN; i++) mal.add(Integer.valueOf(i));\\n                } else if (struct.equals(\\\"HashMap\\\")) {\\n                    HashMap<Object, Object> hm = new HashMap<Object, Object>(refN * 2);\\n                    for (int i = 0; i < refN; i++) hm.put(Integer.valueOf(i), Integer.valueOf(i));\\n                } else if (struct.equals(\\\"MyHashMap\\\")) {\\n                    MyHashMap mhm = new MyHashMap(Math.max(16, refN), 0.75f);\\n                    for (int i = 0; i < refN; i++) mhm.put(Integer.valueOf(i), Integer.valueOf(i));\\n                }\\n                System.gc();\\n                long bAfter = usedMemory();\\n                double bpe = (bAfter - bBefore) / (double) refN;\\n\\n                csv.append(String.format(\\\"%.2f\\\", bpe)).append('\\\\n');\\n\\n                // Also print a console line for quick feedback\\n                System.out.println(String.format(\\\"%s %s -> 1K: %.3f ms, 10K: %.3f ms, 100K: %.3f ms, BPE: %.2f\\\", struct,\\n                        operation, timesMs[0], timesMs[1], timesMs[2], bpe));\\n            }\\n        }\\n\\n        // Ensure output dir exists and write CSV\\n        File out = new File(\\\"output\\\");\\n        if (!out.exists()) out.mkdirs();\\n        File csvFile = new File(out, \\\"compareD.csv\\\");\\n        try (BufferedWriter bw = new BufferedWriter(new FileWriter(csvFile))) {\\n            bw.write(csv.toString());\\n        } catch (IOException e) {\\n            System.err.println(\\\"Failed to write CSV: \\\" + e.getMessage());\\n        }\\n\\n        // Use sink to avoid it being optimized away\\n        if (sink == 0) System.out.println();\\n    }\\n}\\n\"}",
+                  "id": "call_skzMf7xJc3ztnmRdisDucQxL__vscode-1780926194622"
+                }
+              ],
+              "toolInputRetry": 1,
+              "id": "de39cb72-0b6c-4b9b-b505-9d112f1b5608"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "insert_edit_into_file",
+                  "arguments": "{\"filePath\":\"c:\\\\Users\\\\nathan.hayden\\\\Desktop\\\\cp2561-lab2\\\\src\\\\PartD.java\",\"explanation\":\"Create PartD.java implementing MyArrayList and MyHashMap and main benchmark writing output/compareD.csv.\",\"code\":\"import java.io.BufferedWriter;\\nimport java.io.File;\\nimport java.io.FileWriter;\\nimport java.io.IOException;\\nimport java.util.ArrayList;\\nimport java.util.HashMap;\\nimport java.util.Random;\\n\\npublic class PartD {\\n\\n    // Simple ArrayList-like implementation using Object[] that doubles when full\\n    public static class MyArrayList {\\n        private Object[] data;\\n        private int size;\\n\\n        public MyArrayList() { this(10); }\\n        public MyArrayList(int capacity) {\\n            data = new Object[Math.max(1, capacity)];\\n            size = 0;\\n        }\\n\\n        public void add(Object o) {\\n            if (size == data.length) {\\n                int newCap = data.length * 2;\\n                Object[] nd = new Object[newCap];\\n                System.arraycopy(data, 0, nd, 0, data.length);\\n                data = nd;\\n            }\\n            data[size++] = o;\\n        }\\n\\n        public Object get(int index) {\\n            if (index < 0 || index >= size) throw new IndexOutOfBoundsException(\\\"index=\\\" + index);\\n            return data[index];\\n        }\\n\\n        public boolean contains(Object o) {\\n            for (int i = 0; i < size; i++) {\\n                Object v = data[i];\\n                if (v == null) {\\n                    if (o == null) return true;\\n                } else if (v.equals(o)) return true;\\n            }\\n            return false;\\n        }\\n\\n        public int size() { return size; }\\n    }\\n\\n    // Simple HashMap-like implementation using separate chaining and resizing\\n    public static class MyHashMap {\\n        static class Node {\\n            final Object key;\\n            Object value;\\n            Node next;\\n            Node(Object key, Object value, Node next) { this.key = key; this.value = value; this.next = next; }\\n        }\\n\\n        private Node[] table;\\n        private int size;\\n        private int threshold;\\n        private final float loadFactor;\\n\\n        public MyHashMap() { this(16, 0.75f); }\\n        public MyHashMap(int capacity, float loadFactor) {\\n            int cap = Math.max(1, capacity);\\n            table = new Node[cap];\\n            this.loadFactor = loadFactor;\\n            this.threshold = (int)(cap * loadFactor);\\n            this.size = 0;\\n        }\\n\\n        private int indexFor(Object key, int length) {\\n            int h = (key == null) ? 0 : key.hashCode();\\n            h ^= (h >>> 16);\\n            return (h & 0x7fffffff) % length;\\n        }\\n\\n        public void put(Object key, Object value) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) { e.value = value; return; }\\n            }\\n            Node n = new Node(key, value, table[idx]);\\n            table[idx] = n;\\n            size++;\\n            if (size > threshold) resize(table.length * 2);\\n        }\\n\\n        public Object get(Object key) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) return e.value;\\n            }\\n            return null;\\n        }\\n\\n        public boolean containsKey(Object key) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) return true;\\n            }\\n            return false;\\n        }\\n\\n        private void resize(int newCapacity) {\\n            Node[] newTable = new Node[newCapacity];\\n            for (int i = 0; i < table.length; i++) {\\n                Node e = table[i];\\n                while (e != null) {\\n                    Node next = e.next;\\n                    int idx = indexFor(e.key, newCapacity);\\n                    e.next = newTable[idx];\\n                    newTable[idx] = e;\\n                    e = next;\\n                }\\n            }\\n            table = newTable;\\n            threshold = (int)(newCapacity * loadFactor);\\n        }\\n\\n        public int size() { return size; }\\n    }\\n\\n    private static long usedMemory() {\\n        Runtime rt = Runtime.getRuntime();\\n        return rt.totalMemory() - rt.freeMemory();\\n    }\\n\\n    public static void main(String[] args) {\\n        int[] sizes = {1000, 10000, 100000};\\n        String[] structures = {\\\"ArrayList\\\", \\\"MyArrayList\\\", \\\"HashMap\\\", \\\"MyHashMap\\\"};\\n        StringBuilder csv = new StringBuilder();\\n        csv.append(\\\"Structure,Operation,1K,10K,100K,BytesPerElement\\\\n\\\");\\n\\n        long sink = 0L; // prevent JIT optimization\\n        Random rng = new Random(123456);\\n\\n        for (String struct : structures) {\\n            for (int opType = 0; opType < 3; opType++) {\\n                String operation;\\n                if (struct.endsWith(\\\"List\\\")) {\\n                    operation = (opType == 0) ? \\\"add\\\" : (opType == 1 ? \\\"get\\\" : \\\"contains\\\");\\n                } else {\\n                    operation = (opType == 0) ? \\\"put\\\" : (opType == 1 ? \\\"get\\\" : \\\"containsKey\\\");\\n                }\\n\\n                double[] timesMs = new double[sizes.length];\\n\\n                for (int si = 0; si < sizes.length; si++) {\\n                    int n = sizes[si];\\n                    Integer[] keys = new Integer[n];\\n                    for (int i = 0; i < n; i++) keys[i] = Integer.valueOf(i);\\n\\n                    System.gc();\\n                    long memBefore = usedMemory();\\n\\n                    Object structure = null;\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = new ArrayList<Object>(n);\\n                        for (int i = 0; i < n; i++) al.add(keys[i]);\\n                        structure = al;\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = new MyArrayList(n);\\n                        for (int i = 0; i < n; i++) mal.add(keys[i]);\\n                        structure = mal;\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object,Object> hm = new HashMap<Object,Object>(n*2);\\n                        for (int i = 0; i < n; i++) hm.put(keys[i], keys[i]);\\n                        structure = hm;\\n                    } else { // MyHashMap\\n                        MyHashMap mhm = new MyHashMap(Math.max(16, n), 0.75f);\\n                        for (int i = 0; i < n; i++) mhm.put(keys[i], keys[i]);\\n                        structure = mhm;\\n                    }\\n\\n                    System.gc();\\n                    long memAfter = usedMemory();\\n                    double bytesPerElem = (memAfter - memBefore) / (double)Math.max(1, n);\\n\\n                    final int WARM = 100000;\\n                    final int MEAS = 100000;\\n\\n                    // Warmup\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = (ArrayList<Object>) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < WARM; i++) al.add(Integer.valueOf(1000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int idx = rng.nextInt(n); Object v = al.get(idx); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = al.contains(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = (MyArrayList) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < WARM; i++) mal.add(Integer.valueOf(1000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int idx = rng.nextInt(n); Object v = mal.get(idx); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = mal.contains(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object,Object> hm = (HashMap<Object,Object>) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < WARM; i++) hm.put(Integer.valueOf(1000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); Object v = hm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = hm.containsKey(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    } else { // MyHashMap\\n                        MyHashMap mhm = (MyHashMap) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < WARM; i++) mhm.put(Integer.valueOf(1000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); Object v = mhm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = mhm.containsKey(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    }\\n\\n                    long t0 = System.nanoTime();\\n\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = (ArrayList<Object>) structure;\\n                        if (operation.equals(\\\"add\\\")) { for (int i = 0; i < MEAS; i++) al.add(Integer.valueOf(2000000 + i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int idx = rng.nextInt(n); Object v = al.get(idx); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = al.contains(Integer.valueOf(k)); sink += b?1:0; } }\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = (MyArrayList) structure;\\n                        if (operation.equals(\\\"add\\\")) { for (int i = 0; i < MEAS; i++) mal.add(Integer.valueOf(2000000 + i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int idx = rng.nextInt(n); Object v = mal.get(idx); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = mal.contains(Integer.valueOf(k)); sink += b?1:0; } }\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object,Object> hm = (HashMap<Object,Object>) structure;\\n                        if (operation.equals(\\\"put\\\")) { for (int i = 0; i < MEAS; i++) hm.put(Integer.valueOf(2000000 + i), Integer.valueOf(i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); Object v = hm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = hm.containsKey(Integer.valueOf(k)); sink += b?1:0; } }\\n                    } else { // MyHashMap\\n                        MyHashMap mhm = (MyHashMap) structure;\\n                        if (operation.equals(\\\"put\\\")) { for (int i = 0; i < MEAS; i++) mhm.put(Integer.valueOf(2000000 + i), Integer.valueOf(i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); Object v = mhm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = mhm.containsKey(Integer.valueOf(k)); sink += b?1:0; } }\\n                    }\\n\\n                    long t1 = System.nanoTime();\\n                    timesMs[si] = (t1 - t0) / 1e6;\\n\\n                    // Keep sink local updates observable\\n                    if (sink < 0) System.out.println(sink);\\n                }\\n\\n                // CSV row\\n                csv.append(struct).append(',').append(operation).append(',');\\n                for (int i = 0; i < sizes.length; i++) { csv.append(String.format(\\\"%.3f\\\", timesMs[i])).append(','); }\\n\\n                // measure bytes per element for 100K\\n                int refN = 100000;\\n                System.gc(); long mBefore = usedMemory();\\n                if (struct.equals(\\\"ArrayList\\\")) { ArrayList<Object> al = new ArrayList<Object>(refN); for (int i = 0; i < refN; i++) al.add(Integer.valueOf(i)); }\\n                else if (struct.equals(\\\"MyArrayList\\\")) { MyArrayList mal = new MyArrayList(refN); for (int i = 0; i < refN; i++) mal.add(Integer.valueOf(i)); }\\n                else if (struct.equals(\\\"HashMap\\\")) { HashMap<Object,Object> hm = new HashMap<Object,Object>(refN*2); for (int i = 0; i < refN; i++) hm.put(Integer.valueOf(i), Integer.valueOf(i)); }\\n                else { MyHashMap mhm = new MyHashMap(Math.max(16, refN), 0.75f); for (int i = 0; i < refN; i++) mhm.put(Integer.valueOf(i), Integer.valueOf(i)); }\\n                System.gc(); long mAfter = usedMemory();\\n                double bpe = (mAfter - mBefore) / (double)refN;\\n                csv.append(String.format(\\\"%.2f\\\", bpe)).append('\\\\n');\\n\\n                System.out.println(String.format(\\\"%s %s -> 1K: %.3f ms, 10K: %.3f ms, 100K: %.3f ms, BPE: %.2f\\\", struct, operation, timesMs[0], timesMs[1], timesMs[2], bpe));\\n            }\\n        }\\n\\n        File out = new File(\\\"output\\\"); if (!out.exists()) out.mkdirs();\\n        File csvFile = new File(out, \\\"compareD.csv\\\");\\n        try (BufferedWriter bw = new BufferedWriter(new FileWriter(csvFile))) { bw.write(csv.toString()); }\\n        catch (IOException e) { System.err.println(\\\"Failed to write CSV: \\\" + e.getMessage()); }\\n\\n        // use sink\\n        if (sink == 42) System.out.println(\\\"unused: \\\" + sink);\\n    }\\n}\\n\"}",
+                  "id": "call_vA5eBt8ur9y7osWevFNiDxpG__vscode-1780926194623"
+                }
+              ],
+              "toolInputRetry": 2,
+              "id": "633b287b-01eb-46b9-8cfb-f0475c8c9d54"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "create_file",
+                  "arguments": "{\"filePath\":\"c:\\\\Users\\\\nathan.hayden\\\\Desktop\\\\cp2561-lab2\\\\src\\\\PartD.java\",\"content\":\"import java.io.BufferedWriter;\\nimport java.io.File;\\nimport java.io.FileWriter;\\nimport java.io.IOException;\\nimport java.util.ArrayList;\\nimport java.util.HashMap;\\nimport java.util.Random;\\n\\npublic class PartD {\\n\\n    // Simple ArrayList-like implementation using Object[] that doubles when full\\n    public static class MyArrayList {\\n        private Object[] data;\\n        private int size;\\n\\n        public MyArrayList() { this(10); }\\n        public MyArrayList(int capacity) {\\n            data = new Object[Math.max(1, capacity)];\\n            size = 0;\\n        }\\n\\n        public void add(Object o) {\\n            if (size == data.length) {\\n                int newCap = data.length * 2;\\n                Object[] nd = new Object[newCap];\\n                System.arraycopy(data, 0, nd, 0, data.length);\\n                data = nd;\\n            }\\n            data[size++] = o;\\n        }\\n\\n        public Object get(int index) {\\n            if (index < 0 || index >= size) throw new IndexOutOfBoundsException(\\\"index=\\\" + index);\\n            return data[index];\\n        }\\n\\n        public boolean contains(Object o) {\\n            for (int i = 0; i < size; i++) {\\n                Object v = data[i];\\n                if (v == null) {\\n                    if (o == null) return true;\\n                } else if (v.equals(o)) return true;\\n            }\\n            return false;\\n        }\\n\\n        public int size() { return size; }\\n    }\\n\\n    // Simple HashMap-like implementation using separate chaining and resizing\\n    public static class MyHashMap {\\n        static class Node {\\n            final Object key;\\n            Object value;\\n            Node next;\\n            Node(Object key, Object value, Node next) { this.key = key; this.value = value; this.next = next; }\\n        }\\n\\n        private Node[] table;\\n        private int size;\\n        private int threshold;\\n        private final float loadFactor;\\n\\n        public MyHashMap() { this(16, 0.75f); }\\n        public MyHashMap(int capacity, float loadFactor) {\\n            int cap = Math.max(1, capacity);\\n            table = new Node[cap];\\n            this.loadFactor = loadFactor;\\n            this.threshold = (int)(cap * loadFactor);\\n            this.size = 0;\\n        }\\n\\n        private int indexFor(Object key, int length) {\\n            int h = (key == null) ? 0 : key.hashCode();\\n            h ^= (h >>> 16);\\n            return (h & 0x7fffffff) % length;\\n        }\\n\\n        public void put(Object key, Object value) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) { e.value = value; return; }\\n            }\\n            Node n = new Node(key, value, table[idx]);\\n            table[idx] = n;\\n            size++;\\n            if (size > threshold) resize(table.length * 2);\\n        }\\n\\n        public Object get(Object key) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) return e.value;\\n            }\\n            return null;\\n        }\\n\\n        public boolean containsKey(Object key) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) return true;\\n            }\\n            return false;\\n        }\\n\\n        private void resize(int newCapacity) {\\n            Node[] newTable = new Node[newCapacity];\\n            for (int i = 0; i < table.length; i++) {\\n                Node e = table[i];\\n                while (e != null) {\\n                    Node next = e.next;\\n                    int idx = indexFor(e.key, newCapacity);\\n                    e.next = newTable[idx];\\n                    newTable[idx] = e;\\n                    e = next;\\n                }\\n            }\\n            table = newTable;\\n            threshold = (int)(newCapacity * loadFactor);\\n        }\\n\\n        public int size() { return size; }\\n    }\\n\\n    private static long usedMemory() {\\n        Runtime rt = Runtime.getRuntime();\\n        return rt.totalMemory() - rt.freeMemory();\\n    }\\n\\n    public static void main(String[] args) {\\n        int[] sizes = {1000, 10000, 100000};\\n        String[] structures = {\\\"ArrayList\\\", \\\"MyArrayList\\\", \\\"HashMap\\\", \\\"MyHashMap\\\"};\\n        StringBuilder csv = new StringBuilder();\\n        csv.append(\\\"Structure,Operation,1K,10K,100K,BytesPerElement\\\\n\\\");\\n\\n        long sink = 0L; // prevent JIT optimization\\n        Random rng = new Random(123456);\\n\\n        for (String struct : structures) {\\n            for (int opType = 0; opType < 3; opType++) {\\n                String operation;\\n                if (struct.endsWith(\\\"List\\\")) {\\n                    operation = (opType == 0) ? \\\"add\\\" : (opType == 1 ? \\\"get\\\" : \\\"contains\\\");\\n                } else {\\n                    operation = (opType == 0) ? \\\"put\\\" : (opType == 1 ? \\\"get\\\" : \\\"containsKey\\\");\\n                }\\n\\n                double[] timesMs = new double[sizes.length];\\n\\n                for (int si = 0; si < sizes.length; si++) {\\n                    int n = sizes[si];\\n                    Integer[] keys = new Integer[n];\\n                    for (int i = 0; i < n; i++) keys[i] = Integer.valueOf(i);\\n\\n                    System.gc();\\n                    long memBefore = usedMemory();\\n\\n                    Object structure = null;\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = new ArrayList<Object>(n);\\n                        for (int i = 0; i < n; i++) al.add(keys[i]);\\n                        structure = al;\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = new MyArrayList(n);\\n                        for (int i = 0; i < n; i++) mal.add(keys[i]);\\n                        structure = mal;\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object,Object> hm = new HashMap<Object,Object>(n*2);\\n                        for (int i = 0; i < n; i++) hm.put(keys[i], keys[i]);\\n                        structure = hm;\\n                    } else { // MyHashMap\\n                        MyHashMap mhm = new MyHashMap(Math.max(16, n), 0.75f);\\n                        for (int i = 0; i < n; i++) mhm.put(keys[i], keys[i]);\\n                        structure = mhm;\\n                    }\\n\\n                    System.gc();\\n                    long memAfter = usedMemory();\\n                    double bytesPerElem = (memAfter - memBefore) / (double)Math.max(1, n);\\n\\n                    final int WARM = 100000;\\n                    final int MEAS = 100000;\\n\\n                    // Warmup\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = (ArrayList<Object>) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < WARM; i++) al.add(Integer.valueOf(1000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int idx = rng.nextInt(n); Object v = al.get(idx); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = al.contains(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = (MyArrayList) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < WARM; i++) mal.add(Integer.valueOf(1000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int idx = rng.nextInt(n); Object v = mal.get(idx); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = mal.contains(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object,Object> hm = (HashMap<Object,Object>) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < WARM; i++) hm.put(Integer.valueOf(1000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); Object v = hm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = hm.containsKey(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    } else { // MyHashMap\\n                        MyHashMap mhm = (MyHashMap) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < WARM; i++) mhm.put(Integer.valueOf(1000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); Object v = mhm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = mhm.containsKey(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    }\\n\\n                    long t0 = System.nanoTime();\\n\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = (ArrayList<Object>) structure;\\n                        if (operation.equals(\\\"add\\\")) { for (int i = 0; i < MEAS; i++) al.add(Integer.valueOf(2000000 + i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int idx = rng.nextInt(n); Object v = al.get(idx); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = al.contains(Integer.valueOf(k)); sink += b?1:0; } }\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = (MyArrayList) structure;\\n                        if (operation.equals(\\\"add\\\")) { for (int i = 0; i < MEAS; i++) mal.add(Integer.valueOf(2000000 + i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int idx = rng.nextInt(n); Object v = mal.get(idx); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = mal.contains(Integer.valueOf(k)); sink += b?1:0; } }\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object,Object> hm = (HashMap<Object,Object>) structure;\\n                        if (operation.equals(\\\"put\\\")) { for (int i = 0; i < MEAS; i++) hm.put(Integer.valueOf(2000000 + i), Integer.valueOf(i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); Object v = hm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = hm.containsKey(Integer.valueOf(k)); sink += b?1:0; } }\\n                    } else { // MyHashMap\\n                        MyHashMap mhm = (MyHashMap) structure;\\n                        if (operation.equals(\\\"put\\\")) { for (int i = 0; i < MEAS; i++) mhm.put(Integer.valueOf(2000000 + i), Integer.valueOf(i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); Object v = mhm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = mhm.containsKey(Integer.valueOf(k)); sink += b?1:0; } }\\n                    }\\n\\n                    long t1 = System.nanoTime();\\n                    timesMs[si] = (t1 - t0) / 1e6;\\n\\n                    // Keep sink local updates observable\\n                    if (sink < 0) System.out.println(sink);\\n                }\\n\\n                // CSV row\\n                csv.append(struct).append(',').append(operation).append(',');\\n                for (int i = 0; i < sizes.length; i++) { csv.append(String.format(\\\"%.3f\\\", timesMs[i])).append(','); }\\n\\n                // measure bytes per element for 100K\\n                int refN = 100000;\\n                System.gc(); long mBefore = usedMemory();\\n                if (struct.equals(\\\"ArrayList\\\")) { ArrayList<Object> al = new ArrayList<Object>(refN); for (int i = 0; i < refN; i++) al.add(Integer.valueOf(i)); }\\n                else if (struct.equals(\\\"MyArrayList\\\")) { MyArrayList mal = new MyArrayList(refN); for (int i = 0; i < refN; i++) mal.add(Integer.valueOf(i)); }\\n                else if (struct.equals(\\\"HashMap\\\")) { HashMap<Object,Object> hm = new HashMap<Object,Object>(refN*2); for (int i = 0; i < refN; i++) hm.put(Integer.valueOf(i), Integer.valueOf(i)); }\\n                else { MyHashMap mhm = new MyHashMap(Math.max(16, refN), 0.75f); for (int i = 0; i < refN; i++) mhm.put(Integer.valueOf(i), Integer.valueOf(i)); }\\n                System.gc(); long mAfter = usedMemory();\\n                double bpe = (mAfter - mBefore) / (double)refN;\\n                csv.append(String.format(\\\"%.2f\\\", bpe)).append('\\\\n');\\n\\n                System.out.println(String.format(\\\"%s %s -> 1K: %.3f ms, 10K: %.3f ms, 100K: %.3f ms, BPE: %.2f\\\", struct, operation, timesMs[0], timesMs[1], timesMs[2], bpe));\\n            }\\n        }\\n\\n        File out = new File(\\\"output\\\"); if (!out.exists()) out.mkdirs();\\n        File csvFile = new File(out, \\\"compareD.csv\\\");\\n        try (BufferedWriter bw = new BufferedWriter(new FileWriter(csvFile))) { bw.write(csv.toString()); }\\n        catch (IOException e) { System.err.println(\\\"Failed to write CSV: \\\" + e.getMessage()); }\\n\\n        // use sink\\n        if (sink == 42) System.out.println(\\\"unused: \\\" + sink);\\n    }\\n}\\n\"}",
+                  "id": "call_Uc3Dn9sU3MSokCMkOzXdB00T__vscode-1780926194624"
+                }
+              ],
+              "toolInputRetry": 3,
+              "id": "0e05aae2-2c2c-4967-858e-b58b47d124f3"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "read_file",
+                  "arguments": "{\"filePath\":\"c:\\\\Users\\\\nathan.hayden\\\\Desktop\\\\cp2561-lab2\\\\src\\\\PartD.java\",\"startLineNumberBaseZero\":0,\"endLineNumberBaseZero\":4000}",
+                  "id": "call_ZmmwhtdYkZATc1n2qaJCRZK7__vscode-1780926194625"
+                }
+              ],
+              "toolInputRetry": 4,
+              "id": "014cf530-081f-471e-916d-8bb8545b5ad2"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "insert_edit_into_file",
+                  "arguments": "{\"filePath\":\"c:\\\\Users\\\\nathan.hayden\\\\Desktop\\\\cp2561-lab2\\\\src\\\\PartD.java\",\"explanation\":\"Replace file with implementation of MyArrayList and MyHashMap and main benchmark that measures time and memory and writes CSV to output/compareD.csv.\",\"code\":\"import java.io.BufferedWriter;\\nimport java.io.File;\\nimport java.io.FileWriter;\\nimport java.io.IOException;\\nimport java.util.ArrayList;\\nimport java.util.HashMap;\\nimport java.util.Random;\\n\\npublic class PartD {\\n\\n    // Simple ArrayList-like implementation using Object[] that doubles when full\\n    public static class MyArrayList {\\n        private Object[] data;\\n        private int size;\\n\\n        public MyArrayList() { this(10); }\\n        public MyArrayList(int capacity) {\\n            data = new Object[Math.max(1, capacity)];\\n            size = 0;\\n        }\\n\\n        public void add(Object o) {\\n            if (size == data.length) {\\n                int newCap = data.length * 2;\\n                Object[] nd = new Object[newCap];\\n                System.arraycopy(data, 0, nd, 0, data.length);\\n                data = nd;\\n            }\\n            data[size++] = o;\\n        }\\n\\n        public Object get(int index) {\\n            if (index < 0 || index >= size) throw new IndexOutOfBoundsException(\\\"index=\\\" + index);\\n            return data[index];\\n        }\\n\\n        public boolean contains(Object o) {\\n            for (int i = 0; i < size; i++) {\\n                Object v = data[i];\\n                if (v == null) {\\n                    if (o == null) return true;\\n                } else if (v.equals(o)) return true;\\n            }\\n            return false;\\n        }\\n\\n        public int size() { return size; }\\n    }\\n\\n    // Simple HashMap-like implementation using separate chaining and resizing\\n    public static class MyHashMap {\\n        static class Node {\\n            final Object key;\\n            Object value;\\n            Node next;\\n            Node(Object key, Object value, Node next) { this.key = key; this.value = value; this.next = next; }\\n        }\\n\\n        private Node[] table;\\n        private int size;\\n        private int threshold;\\n        private final float loadFactor;\\n\\n        public MyHashMap() { this(16, 0.75f); }\\n        public MyHashMap(int capacity, float loadFactor) {\\n            int cap = Math.max(1, capacity);\\n            table = new Node[cap];\\n            this.loadFactor = loadFactor;\\n            this.threshold = (int)(cap * loadFactor);\\n            this.size = 0;\\n        }\\n\\n        private int indexFor(Object key, int length) {\\n            int h = (key == null) ? 0 : key.hashCode();\\n            h ^= (h >>> 16);\\n            return (h & 0x7fffffff) % length;\\n        }\\n\\n        public void put(Object key, Object value) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) { e.value = value; return; }\\n            }\\n            Node n = new Node(key, value, table[idx]);\\n            table[idx] = n;\\n            size++;\\n            if (size > threshold) resize(table.length * 2);\\n        }\\n\\n        public Object get(Object key) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) return e.value;\\n            }\\n            return null;\\n        }\\n\\n        public boolean containsKey(Object key) {\\n            int idx = indexFor(key, table.length);\\n            for (Node e = table[idx]; e != null; e = e.next) {\\n                if (key == e.key || (key != null && key.equals(e.key))) return true;\\n            }\\n            return false;\\n        }\\n\\n        private void resize(int newCapacity) {\\n            Node[] newTable = new Node[newCapacity];\\n            for (int i = 0; i < table.length; i++) {\\n                Node e = table[i];\\n                while (e != null) {\\n                    Node next = e.next;\\n                    int idx = indexFor(e.key, newCapacity);\\n                    e.next = newTable[idx];\\n                    newTable[idx] = e;\\n                    e = next;\\n                }\\n            }\\n            table = newTable;\\n            threshold = (int)(newCapacity * loadFactor);\\n        }\\n\\n        public int size() { return size; }\\n    }\\n\\n    private static long usedMemory() {\\n        Runtime rt = Runtime.getRuntime();\\n        return rt.totalMemory() - rt.freeMemory();\\n    }\\n\\n    public static void main(String[] args) {\\n        int[] sizes = {1000, 10000, 100000};\\n        String[] structures = {\\\"ArrayList\\\", \\\"MyArrayList\\\", \\\"HashMap\\\", \\\"MyHashMap\\\"};\\n        StringBuilder csv = new StringBuilder();\\n        csv.append(\\\"Structure,Operation,1K,10K,100K,BytesPerElement\\\\n\\\");\\n\\n        long sink = 0L; // prevent JIT optimization\\n        Random rng = new Random(123456);\\n\\n        for (String struct : structures) {\\n            for (int opType = 0; opType < 3; opType++) {\\n                String operation;\\n                if (struct.endsWith(\\\"List\\\")) {\\n                    operation = (opType == 0) ? \\\"add\\\" : (opType == 1 ? \\\"get\\\" : \\\"contains\\\");\\n                } else {\\n                    operation = (opType == 0) ? \\\"put\\\" : (opType == 1 ? \\\"get\\\" : \\\"containsKey\\\");\\n                }\\n\\n                double[] timesMs = new double[sizes.length];\\n\\n                for (int si = 0; si < sizes.length; si++) {\\n                    int n = sizes[si];\\n                    Integer[] keys = new Integer[n];\\n                    for (int i = 0; i < n; i++) keys[i] = Integer.valueOf(i);\\n\\n                    System.gc();\\n                    long memBefore = usedMemory();\\n\\n                    Object structure = null;\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = new ArrayList<Object>(n);\\n                        for (int i = 0; i < n; i++) al.add(keys[i]);\\n                        structure = al;\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = new MyArrayList(n);\\n                        for (int i = 0; i < n; i++) mal.add(keys[i]);\\n                        structure = mal;\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object,Object> hm = new HashMap<Object,Object>(n*2);\\n                        for (int i = 0; i < n; i++) hm.put(keys[i], keys[i]);\\n                        structure = hm;\\n                    } else { // MyHashMap\\n                        MyHashMap mhm = new MyHashMap(Math.max(16, n), 0.75f);\\n                        for (int i = 0; i < n; i++) mhm.put(keys[i], keys[i]);\\n                        structure = mhm;\\n                    }\\n\\n                    System.gc();\\n                    long memAfter = usedMemory();\\n                    double bytesPerElem = (memAfter - memBefore) / (double)Math.max(1, n);\\n\\n                    final int WARM = 100000;\\n                    final int MEAS = 100000;\\n\\n                    // Warmup\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = (ArrayList<Object>) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < WARM; i++) al.add(Integer.valueOf(1000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int idx = rng.nextInt(n); Object v = al.get(idx); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = al.contains(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = (MyArrayList) structure;\\n                        if (operation.equals(\\\"add\\\")) {\\n                            for (int i = 0; i < WARM; i++) mal.add(Integer.valueOf(1000000 + i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int idx = rng.nextInt(n); Object v = mal.get(idx); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = mal.contains(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object,Object> hm = (HashMap<Object,Object>) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < WARM; i++) hm.put(Integer.valueOf(1000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); Object v = hm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = hm.containsKey(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    } else { // MyHashMap\\n                        MyHashMap mhm = (MyHashMap) structure;\\n                        if (operation.equals(\\\"put\\\")) {\\n                            for (int i = 0; i < WARM; i++) mhm.put(Integer.valueOf(1000000 + i), Integer.valueOf(i));\\n                        } else if (operation.equals(\\\"get\\\")) {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); Object v = mhm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); }\\n                        } else {\\n                            for (int i = 0; i < WARM; i++) { int k = rng.nextInt(n); boolean b = mhm.containsKey(Integer.valueOf(k)); sink += b?1:0; }\\n                        }\\n                    }\\n\\n                    long t0 = System.nanoTime();\\n\\n                    if (struct.equals(\\\"ArrayList\\\")) {\\n                        ArrayList<Object> al = (ArrayList<Object>) structure;\\n                        if (operation.equals(\\\"add\\\")) { for (int i = 0; i < MEAS; i++) al.add(Integer.valueOf(2000000 + i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int idx = rng.nextInt(n); Object v = al.get(idx); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = al.contains(Integer.valueOf(k)); sink += b?1:0; } }\\n                    } else if (struct.equals(\\\"MyArrayList\\\")) {\\n                        MyArrayList mal = (MyArrayList) structure;\\n                        if (operation.equals(\\\"add\\\")) { for (int i = 0; i < MEAS; i++) mal.add(Integer.valueOf(2000000 + i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int idx = rng.nextInt(n); Object v = mal.get(idx); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = mal.contains(Integer.valueOf(k)); sink += b?1:0; } }\\n                    } else if (struct.equals(\\\"HashMap\\\")) {\\n                        HashMap<Object,Object> hm = (HashMap<Object,Object>) structure;\\n                        if (operation.equals(\\\"put\\\")) { for (int i = 0; i < MEAS; i++) hm.put(Integer.valueOf(2000000 + i), Integer.valueOf(i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); Object v = hm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = hm.containsKey(Integer.valueOf(k)); sink += b?1:0; } }\\n                    } else { // MyHashMap\\n                        MyHashMap mhm = (MyHashMap) structure;\\n                        if (operation.equals(\\\"put\\\")) { for (int i = 0; i < MEAS; i++) mhm.put(Integer.valueOf(2000000 + i), Integer.valueOf(i)); }\\n                        else if (operation.equals(\\\"get\\\")) { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); Object v = mhm.get(Integer.valueOf(k)); sink += (v==null?0:v.hashCode()); } }\\n                        else { for (int i = 0; i < MEAS; i++) { int k = rng.nextInt(n); boolean b = mhm.containsKey(Integer.valueOf(k)); sink += b?1:0; } }\\n                    }\\n\\n                    long t1 = System.nanoTime();\\n                    timesMs[si] = (t1 - t0) / 1e6;\\n\\n                    // Keep sink local updates observable\\n                    if (sink < 0) System.out.println(sink);\\n                }\\n\\n                // CSV row\\n                csv.append(struct).append(',').append(operation).append(',');\\n                for (int i = 0; i < sizes.length; i++) { csv.append(String.format(\\\"%.3f\\\", timesMs[i])).append(','); }\\n\\n                // measure bytes per element for 100K\\n                int refN = 100000;\\n                System.gc(); long mBefore = usedMemory();\\n                if (struct.equals(\\\"ArrayList\\\")) { ArrayList<Object> al = new ArrayList<Object>(refN); for (int i = 0; i < refN; i++) al.add(Integer.valueOf(i)); }\\n                else if (struct.equals(\\\"MyArrayList\\\")) { MyArrayList mal = new MyArrayList(refN); for (int i = 0; i < refN; i++) mal.add(Integer.valueOf(i)); }\\n                else if (struct.equals(\\\"HashMap\\\")) { HashMap<Object,Object> hm = new HashMap<Object,Object>(refN*2); for (int i = 0; i < refN; i++) hm.put(Integer.valueOf(i), Integer.valueOf(i)); }\\n                else { MyHashMap mhm = new MyHashMap(Math.max(16, refN), 0.75f); for (int i = 0; i < refN; i++) mhm.put(Integer.valueOf(i), Integer.valueOf(i)); }\\n                System.gc(); long mAfter = usedMemory();\\n                double bpe = (mAfter - mBefore) / (double)refN;\\n                csv.append(String.format(\\\"%.2f\\\", bpe)).append('\\\\n');\\n\\n                System.out.println(String.format(\\\"%s %s -> 1K: %.3f ms, 10K: %.3f ms, 100K: %.3f ms, BPE: %.2f\\\", struct, operation, timesMs[0], timesMs[1], timesMs[2], bpe));\\n            }\\n        }\\n\\n        File out = new File(\\\"output\\\"); if (!out.exists()) out.mkdirs();\\n        File csvFile = new File(out, \\\"compareD.csv\\\");\\n        try (BufferedWriter bw = new BufferedWriter(new FileWriter(csvFile))) { bw.write(csv.toString()); }\\n        catch (IOException e) { System.err.println(\\\"Failed to write CSV: \\\" + e.getMessage()); }\\n\\n        // use sink\\n        if (sink == 42) System.out.println(\\\"unused: \\\" + sink);\\n    }\\n}\\n\"}",
+                  "id": "call_lWFCkvhd7rKhbqWsIf4GQ2qe__vscode-1780926194626"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "41e15cd9-89dd-43bd-aa9f-c374a523146a"
+            }
+          ],
+          "toolCallResults": {
+            "call_kjLMKE0OYNu0uapgVIJCCbet__vscode-1780926194621": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "ERROR while calling tool: Sorry, your request failed. Please try again. Request id: 9ae75aeb-4388-4326-a6ca-353d1a634dd9\nPlease check your input and try again."
+                }
+              ]
+            },
+            "call_skzMf7xJc3ztnmRdisDucQxL__vscode-1780926194622": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "ERROR while calling tool: Sorry, your request failed. Please try again. Request id: 7b2946fb-7367-40c8-b900-e4365c3f555b\nPlease check your input and try again."
+                }
+              ]
+            },
+            "call_vA5eBt8ur9y7osWevFNiDxpG__vscode-1780926194623": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "ERROR while calling tool: Sorry, your request failed. Please try again. Request id: 3c36cbae-9bce-4096-9330-7b2de7f4532d\nPlease check your input and try again."
+                }
+              ]
+            },
+            "call_Uc3Dn9sU3MSokCMkOzXdB00T__vscode-1780926194624": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 21,
+                  "value": "ERROR while calling tool: File already exists. You must use an edit tool to modify it.\nPlease check your input and try again."
+                }
+              ]
+            },
+            "call_ZmmwhtdYkZATc1n2qaJCRZK7__vscode-1780926194625": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 22,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "AY",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "Lines ",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "0",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " to ",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "4000",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " (",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "4",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": " lines total):",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 1,
+                          "ctor": 2,
+                          "ctorName": "ot",
+                          "children": [
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "xre",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 6,
+                                  "text": "```java\n",
+                                  "references": [
+                                    {
+                                      "anchor": {
+                                        "$mid": 1,
+                                        "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+                                        "_sep": 1,
+                                        "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+                                        "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+                                        "scheme": "file"
+                                      }
+                                    }
+                                  ],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 6
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "xre",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 5,
+                                  "text": "// filepath: c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 5
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "xre",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 4,
+                                  "text": "public class PartD {\r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 4
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "xre",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 3,
+                                  "text": "    \r\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 3
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "xre",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 2,
+                                  "text": "}\n",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 2
+                              },
+                              "references": []
+                            },
+                            {
+                              "type": 1,
+                              "ctor": 2,
+                              "ctorName": "xre",
+                              "children": [
+                                {
+                                  "type": 2,
+                                  "priority": 6,
+                                  "text": "```",
+                                  "references": [],
+                                  "lineBreakBefore": true
+                                }
+                              ],
+                              "props": {
+                                "priority": 6
+                              },
+                              "references": []
+                            }
+                          ],
+                          "props": {},
+                          "references": []
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "modelMessageId": "842cc394-a503-451a-ae2f-110ce2ed749f",
+          "responseId": "cd0f7cb7-58b2-4fb5-bcb8-c3aff2dca1d9",
+          "sessionId": "f8f7b95d-521d-4f66-bc47-9e30a42ca20d",
+          "agentId": "github.copilot.editsAgent"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edit files in your workspace in agent mode",
+        "when": "config.chat.agent.enabled && !chatAgentModeDisallowed",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [],
+        "disambiguation": []
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+              "_sep": 1,
+              "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+              "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 4,
+              "endColumn": 1
+            }
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1780927903505
+    },
+    {
+      "requestId": "request_782a9367-322c-465d-8ddf-62f34dbb7022",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 36
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 37
+            },
+            "text": "@agent Pause: \"Continue to iterate?\"",
+            "kind": "text"
+          }
+        ],
+        "text": "@agent Pause: \"Continue to iterate?\""
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "Let me know if there's anything else I can help with!",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "uris": {}
+        }
+      ],
+      "responseId": "response_c4cb5f3c-338c-4b2f-8f43-2303d7831da0",
+      "result": {
+        "timings": {
+          "firstProgress": 1,
+          "totalElapsed": 1
+        },
+        "metadata": {
+          "modelMessageId": "",
+          "responseId": "3c6fb7cc-9a81-4c9c-b429-fd0f396151f4",
+          "sessionId": "f8f7b95d-521d-4f66-bc47-9e30a42ca20d",
+          "agentId": "github.copilot.editsAgent"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edit files in your workspace in agent mode",
+        "when": "config.chat.agent.enabled && !chatAgentModeDisallowed",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [],
+        "disambiguation": []
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1780928212909,
+      "confirmation": "Pause",
+      "editedFileEvents": [
+        {
+          "eventKind": 1,
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\nathan.hayden\\Desktop\\cp2561-lab2\\src\\PartD.java",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "path": "/c:/Users/nathan.hayden/Desktop/cp2561-lab2/src/PartD.java",
+            "scheme": "file"
+          }
+        }
+      ]
+    }
+  ],
+  "sessionId": "7915b49e-e257-4ab6-a49a-68db70731b0f",
+  "creationDate": 1780927743119,
+  "isImported": false,
+  "lastMessageDate": 1780928212909
+}
